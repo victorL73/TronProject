@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfa18ae6-ff6a-4adb-bbad-6da9ed12480b" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/motionless/light2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/tronMAIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/exia/tron/controller/tronControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/exia/tron/entity/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/showboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/showboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Projet-5-CESI/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/BoulderDashMAINTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/BoulderDashMAINModelTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/CharacterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/EntityFactoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/IMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/MoveTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/PermeabilityTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/SpriteTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/blocksTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/mapTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/entity/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/BoulderDashMAIN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IBoulderDashController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IGravity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IOrderPerformer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IPermeability.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/IView.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/UserOrder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/contract/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/controller/BoulderDashController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/controller/BoulderDashControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/controller/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/Entity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/EntityFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/Map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/Sprite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/Alive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/AliveORDead.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/Character.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/Diamond.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/DiamondTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/Grass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/MobileEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/Monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/mobile/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/BrokenGrass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/Door.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/MotionlessEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/Rock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/UnbreakableWall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/motionless/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/entity/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/DAOLevel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/Model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/ModelTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/View.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/ViewFrame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/ViewPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/ViewTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/fr/exia/BoulderDash/view/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/DAOEntityTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/DBConnectionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/DBPropertiesTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/view/BoulderDashMAINViewTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/view/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/view/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/view/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/BoulderDashMAIN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IBoulderDashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IBoulderDashView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IGravity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IOrderPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IOrderPerformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IPermeability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IPermeability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/UserOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/UserOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/controller/BoulderDashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/controller/tronController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/controller/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/controller/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/EntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Permeability.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Alive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/Alive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/AliveORDead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/AliveORDead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Diamond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/grille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/MobileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/MobileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/BrokenGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/motionless/light1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/MotionlessEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/motionless/MotionlessEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/Rock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/UnbreakableWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/motionless/UnbreakableWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/motionless/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/BrokenGrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/BrokenGrass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Chauve-souris.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Chauve-souris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Diamond.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Diamond.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Door.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Door.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Face4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Face4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Papillon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Papillon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Pouple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Pouple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/Rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/Rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/images/UnbreakableWall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/images/UnbreakableWall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/model/DAOLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/model/DAOLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/ViewFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/ViewFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/ViewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/ViewPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/libs/showboard.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoulderDashMAINTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tronMAINTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/BoulderDashMAINControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/except.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/BoulderDashMAINModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/CharacterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/EntityFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/HeroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/MoveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/PermeabilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/SpriteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/blocksTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/mapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/controller/BoulderDashControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/entity/mobile/DiamondTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/model/ModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/exia/tron/model/ModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/view/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/exia/tron/view/ViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/DAOEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/DBConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/DBPropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/view/BoulderDashMAINViewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Java-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/IMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/BoulderDashMAIN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IBoulderDashController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IBoulderDashView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IGravity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IOrderPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IPermeability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/IView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/contract/UserOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/controller/BoulderDashController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/controller/BoulderDashController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/EntityFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/Map$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/Permeability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/Sprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Alive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/AliveORDead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Diamond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Grass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/MobileEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/mobile/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/motionless/BrokenGrass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/motionless/Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/motionless/MotionlessEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/motionless/Rock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/entity/motionless/UnbreakableWall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/model/DAOLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/view/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/view/ViewFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/exia/BoulderDash/view/ViewPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BoulderDashMAINTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BoulderDashMAINTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.BoulderDashMAINModelTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.CharacterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.EntityFactoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.MoveTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.PermeabilityTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.SpriteTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.blocksTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-entity.mapTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.exia.BoulderDash.controller.BoulderDashControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.exia.BoulderDash.entity.mobile.DiamondTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.exia.BoulderDash.model.ModelTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.exia.BoulderDash.view.ViewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.DAOEntityTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.DBConnectionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-model.DBPropertiesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-view.BoulderDashMAINViewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.BoulderDashMAINModelTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.CharacterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.EntityFactoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.MoveTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.PermeabilityTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.SpriteTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.blocksTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/entity.mapTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.exia.BoulderDash.controller.BoulderDashControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.exia.BoulderDash.entity.mobile.DiamondTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.exia.BoulderDash.model.ModelTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.exia.BoulderDash.view.ViewTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/model.DAOEntityTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/model.DBConnectionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/model.DBPropertiesTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/view.BoulderDashMAINViewTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BoulderDashMAINTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/BoulderDashMAINControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/BoulderDashMAINModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/CharacterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/EntityFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/HeroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/MoveTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/PermeabilityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/SpriteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/blocksTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entity/mapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/exia/BoulderDash/controller/BoulderDashControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/exia/BoulderDash/entity/mobile/DiamondTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/exia/BoulderDash/model/ModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/exia/BoulderDash/view/ViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/DAOEntityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/DBConnectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/DBPropertiesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/view/BoulderDashMAINViewTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java-Projet" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/fr.exia.tron.view">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>fr.exia.tron.view</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">fr.exia.tron.view.ViewFrame</node>
+                <node x="0.0" y="410.0">fr.exia.tron.view.ViewPanel</node>
+                <node x="0.0" y="249.0">fr.exia.tron.view.View</node>
+                <node x="282.0" y="249.0">fr.exia.tron.view.ViewTest</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-233.5" y="47.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/fr.exia.tron.model">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>fr.exia.tron.model</OriginalElement>
+              <nodes>
+                <node x="0.0" y="204.0">fr.exia.tron.model.DAOLevel</node>
+                <node x="0.0" y="0.0">fr.exia.tron.model.ModelTest</node>
+                <node x="218.0" y="0.0">fr.exia.tron.model.Model</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-289.5" y="-22.0" />
+              <SelectedNodes>
+                <node>fr.exia.tron.model.Model</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/fr.exia.tron.entity">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>fr.exia.tron.entity</OriginalElement>
+              <nodes>
+                <node x="826.0" y="144.0">fr.exia.tron.entity.mobile</node>
+                <node x="1224.6666666666665" y="-71.66666666666669">fr.exia.tron.entity.Map</node>
+                <node x="976.0" y="144.0">fr.exia.tron.entity.motionless</node>
+                <node x="0.0" y="1018.0">fr.exia.tron.entity.EntityFactory</node>
+                <node x="1574.9999999999998" y="-194.99999999999997">fr.exia.tron.entity.MapTest</node>
+                <node x="861.3333333333333" y="314.99999999999994">fr.exia.tron.entity.Sprite</node>
+                <node x="906.25" y="0.0">fr.exia.tron.entity.Entity</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="fr.exia.tron.entity.motionless" target="fr.exia.tron.entity.Entity">
+                  <point x="0.0" y="-13.5" />
+                  <point x="1055.5" y="119.0" />
+                  <point x="1006.75" y="119.0" />
+                  <point x="33.5" y="47.0" />
+                </edge>
+                <edge source="fr.exia.tron.entity.mobile" target="fr.exia.tron.entity.Entity">
+                  <point x="0.0" y="-13.5" />
+                  <point x="891.0" y="119.0" />
+                  <point x="939.75" y="119.0" />
+                  <point x="-33.5" y="47.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="460.99999999999994" y="112.99999999999994" />
+              <SelectedNodes>
+                <node>fr.exia.tron.entity.Sprite</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/fr.exia.tron.entity.mobile">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>fr.exia.tron.entity.mobile</OriginalElement>
+              <nodes>
+                <node x="336.0" y="176.0">fr.exia.tron.entity.mobile.grille</node>
+                <node x="119.0" y="99.0">fr.exia.tron.entity.mobile.Alive</node>
+                <node x="349.5" y="99.0">fr.exia.tron.entity.mobile.AliveORDead</node>
+                <node x="173.75" y="0.0">fr.exia.tron.entity.mobile.MobileEntity</node>
+                <node x="0.0" y="176.0">fr.exia.tron.entity.mobile.lightCircle2</node>
+                <node x="168.0" y="176.0">fr.exia.tron.entity.mobile.lightCircle1</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="fr.exia.tron.entity.mobile.Alive" target="fr.exia.tron.entity.mobile.MobileEntity">
+                  <point x="0.0" y="-13.5" />
+                  <point x="158.0" y="74.0" />
+                  <point x="212.75" y="74.0" />
+                  <point x="-39.0" y="24.5" />
+                </edge>
+                <edge source="fr.exia.tron.entity.mobile.lightCircle2" target="fr.exia.tron.entity.mobile.Alive">
+                  <point x="0.0" y="-36.0" />
+                  <point x="74.0" y="151.0" />
+                  <point x="138.5" y="151.0" />
+                  <point x="-19.5" y="13.5" />
+                </edge>
+                <edge source="fr.exia.tron.entity.mobile.grille" target="fr.exia.tron.entity.mobile.AliveORDead">
+                  <point x="0.0" y="-36.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="fr.exia.tron.entity.mobile.AliveORDead" target="fr.exia.tron.entity.mobile.MobileEntity">
+                  <point x="0.0" y="-13.5" />
+                  <point x="410.0" y="74.0" />
+                  <point x="290.75" y="74.0" />
+                  <point x="39.0" y="24.5" />
+                </edge>
+                <edge source="fr.exia.tron.entity.mobile.lightCircle1" target="fr.exia.tron.entity.mobile.Alive">
+                  <point x="0.0" y="-36.0" />
+                  <point x="242.0" y="151.0" />
+                  <point x="177.5" y="151.0" />
+                  <point x="19.5" y="13.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="199.5" y="90.5" />
+              <SelectedNodes>
+                <node>fr.exia.tron.entity.mobile.MobileEntity</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run()</find>
+      <find>UserOrder</find>
+      <find>symbol</find>
+      <find>isitfalling</find>
+      <find>isitfalli</find>
+      <find>32</find>
+      <find>24</find>
+      <find>permability</find>
+      <find>unbrea</find>
+      <find>blocking</find>
+      <find>monster</find>
+      <find>killPlayer</find>
+      <find>moveri</find>
+      <find>charactermo</find>
+      <find>brokengrass</find>
+      <find>characterX</find>
+      <find>hero</find>
+      <find>charact</find>
+      <find>charac</find>
+      <find>killpl</find>
+      <find>level 1</find>
+      <find>level</find>
+      <find>lives</find>
+      <find>die</find>
+      <find>killpla</find>
+      <find>killplayer</find>
+      <find>kill</find>
+      <find>map</find>
+      <find>Mathéo NOEL</find>
+      <find>0.1</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\noelm\IdeaProjects\Java-Projet\src\main\java\fr\exia\BoulderDash</dir>
+      <dir>C:\Users\Xxvic\IdeaProjects\Projet-5-java\src\main\java\fr\exia\BoulderDash\images</dir>
+      <dir>C:\Users\Xxvic\IdeaProjects\Projet-5-java\src\main\java\fr\exia\BoulderDash</dir>
+      <dir>C:\Users\Xxvic\IdeaProjects\Projet-5-java</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/model/ModelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/view/ViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/entity/mobile/GrassTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Grass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Character.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/UnbreakableWall.java" />
+        <option value="$PROJECT_DIR$/projet/Projet-5-java/src/main/java/fr/exia/BoulderDash/controller/BoulderDashController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/BrokenGrass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Hero2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/mobile/Character2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fr/exia/BoulderDash/controller/BoulderDashControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/contract/UserOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/BrokenGrass2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/ViewPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/view/ViewFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/controller/BoulderDashController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/motionless/light1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/EntityFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/BoulderDash/entity/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Sprite.java" />
+        <option value="$PROJECT_DIR$/projet/Projet-5-java/src/main/java/fr/exia/BoulderDash/entity/Map.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fr/exia/tron/entity/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IOrderPerformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/controller/tronController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/grille.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/model/DAOLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/ViewFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/ViewPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/Alive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/EntityFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/AliveORDead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/UserOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IPermeability.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/MobileEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/exia/tron/tronMAIN.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="250" />
+    <option name="y" value="-9" />
+    <option name="width" value="1640" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tron" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tron" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-5-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tron" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.exia.tron.entity" />
+      <recent name="fr.exia.BoulderDash.view" />
+      <recent name="fr.exia.BoulderDash.model" />
+      <recent name="fr.exia.BoulderDash.entity.mobile" />
+      <recent name="fr.exia.BoulderDash.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.exia.BoulderDash.entity.motionless" />
+      <recent name="fr.exia.BoulderDash.entity.mobile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\noelm\IdeaProjects\Java-Projet\src\main\resources" />
+      <recent name="C:\Users\Xxvic\IdeaProjects\Java-Projet\src\main\resources\libs" />
+      <recent name="C:\Users\Xxvic\IdeaProjects\Java-Projet\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.tronMAIN">
+    <configuration name="BoulderDash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exia.BoulderDash.BoulderDash" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.BoulderDash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tronMAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exia.tron.tronMAIN" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.tron.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoulderDashControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.BoulderDashControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoulderDashControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.BoulderDash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.exia.BoulderDash.controller" />
+      <option name="MAIN_CLASS_NAME" value="fr.exia.BoulderDash.BoulderDashControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.getLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.tron.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.exia.tron.entity" />
+      <option name="MAIN_CLASS_NAME" value="fr.exia.tron.entity.MapTest" />
+      <option name="METHOD_NAME" value="getLevel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.tron.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.exia.tron.model" />
+      <option name="MAIN_CLASS_NAME" value="fr.exia.tron.model.ModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tronControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exia.tron.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.exia.tron.controller" />
+      <option name="MAIN_CLASS_NAME" value="fr.exia.tron.controller.tronControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java [jxr:test-jxr]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jxr:test-jxr" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Java [surefire:test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="surefire:test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BoulderDash" />
+      <item itemvalue="Application.tronMAIN" />
+      <item itemvalue="JUnit.BoulderDashControllerTest" />
+      <item itemvalue="JUnit.tronControllerTest" />
+      <item itemvalue="JUnit.ModelTest" />
+      <item itemvalue="JUnit.MapTest.getLevel" />
+      <item itemvalue="Maven.Java [jxr:test-jxr]" />
+      <item itemvalue="Maven.Java [surefire:test]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.tronMAIN" />
+        <item itemvalue="JUnit.MapTest.getLevel" />
+        <item itemvalue="JUnit.ModelTest" />
+        <item itemvalue="JUnit.tronControllerTest" />
+        <item itemvalue="JUnit.BoulderDashControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfa18ae6-ff6a-4adb-bbad-6da9ed12480b" name="Default Changelist" comment="" />
+      <created>1558699983024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558699983024</updated>
+      <workItem from="1558699986473" duration="14885000" />
+      <workItem from="1558943328863" duration="14354000" />
+      <workItem from="1558960406680" duration="61000" />
+      <workItem from="1558960495054" duration="17000" />
+      <workItem from="1558960535150" duration="263000" />
+      <workItem from="1558960876023" duration="31000" />
+      <workItem from="1558960926039" duration="160000" />
+      <workItem from="1558961094360" duration="43000" />
+      <workItem from="1558961194184" duration="107000" />
+      <workItem from="1558961943106" duration="1144000" />
+      <workItem from="1558963123588" duration="1366000" />
+      <workItem from="1558964820257" duration="4105000" />
+      <workItem from="1559026124315" duration="25934000" />
+      <workItem from="1559488421849" duration="24000" />
+      <workItem from="1559493573797" duration="5226000" />
+      <workItem from="1559512489117" duration="23000" />
+      <workItem from="1559544880112" duration="5928000" />
+      <workItem from="1559554984976" duration="12235000" />
+      <workItem from="1559572502937" duration="888000" />
+      <workItem from="1559631788127" duration="174000" />
+      <workItem from="1559632589335" duration="6000" />
+      <workItem from="1560759072379" duration="19000" />
+      <workItem from="1562149442790" duration="8000" />
+      <workItem from="1562152284948" duration="9306000" />
+      <workItem from="1562166267579" duration="5971000" />
+      <workItem from="1562177004093" duration="215000" />
+      <workItem from="1562227171787" duration="5157000" />
+    </task>
+    <task id="LOCAL-00001" summary="test2">
+      <created>1558943464676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558943464676</updated>
+    </task>
+    <task id="LOCAL-00002" summary="contract">
+      <created>1558944245938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558944245938</updated>
+    </task>
+    <task id="LOCAL-00003" summary="entity">
+      <created>1558944370090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558944370090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="entity">
+      <created>1558948442476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558948442476</updated>
+    </task>
+    <task id="LOCAL-00005" summary="entity">
+      <created>1558949414029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558949414029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="entity">
+      <created>1558949838781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558949838781</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Model">
+      <created>1558950202762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558950202762</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tests">
+      <created>1558951295729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558951295729</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tests">
+      <created>1558956163171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558956163171</updated>
+    </task>
+    <task id="LOCAL-00010" summary="less scroll">
+      <created>1558958276777</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958276777</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add showboard and update of controller">
+      <created>1558958567557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958567557</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change name">
+      <created>1558959164085</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558959164085</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change name to BoulderDash">
+      <created>1558959930437</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558959930437</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change name to BoulderDash">
+      <created>1558960067865</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960067865</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1558960228165</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960228165</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1558963288169</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558963288170</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1559032208384</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559032208384</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1559035745093</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559035745093</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1559052520095</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559052520095</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1559053411933</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559053411933</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1559054551818</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559054551818</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update">
+      <created>1559054719632</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559054719632</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DBPropertiesTest - 2019.05.27 at 12h 00m 13s.xml">
+      <configuration name="DBPropertiesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsaneVehiclesTest - 2019.05.27 at 12h 21m 01s.xml">
+      <configuration name="InsaneVehiclesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoulderDashControllerTest - 2019.06.03 at 15h 43m 47s.xml">
+      <configuration name="BoulderDashControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoulderDashControllerTest - 2019.06.03 at 15h 59m 42s.xml">
+      <configuration name="BoulderDashControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoulderDashControllerTest_(1) - 2019.07.03 at 14h 28m 32s.xml">
+      <configuration name="BoulderDashControllerTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoulderDashControllerTest_(1) - 2019.07.03 at 14h 33m 16s.xml">
+      <configuration name="BoulderDashControllerTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="tronControllerTest - 2019.07.04 at 10h 07m 31s.xml">
+      <configuration name="tronControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelTest - 2019.07.04 at 10h 08m 00s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_getLevel - 2019.07.04 at 10h 14m 14s.xml">
+      <configuration name="MapTest.getLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_getLevel - 2019.07.04 at 10h 15m 35s.xml">
+      <configuration name="MapTest.getLevel" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113405000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.21543624" />
+      <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.20872483" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50246304" side_tool="true" weight="0.25161812" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.3243968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6691275" weight="0.29624665" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32707775" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.32707775" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33087248" side_tool="true" weight="0.29624665" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48926175" weight="0.24664879" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.038255032" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.21543624" />
+      <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.20872483" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50246304" side_tool="true" weight="0.25161812" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463087" weight="0.3243968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6691275" visible="true" weight="0.29624665" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32707775" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.32707775" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33087248" side_tool="true" weight="0.29624665" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48926175" weight="0.24664879" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.038255032" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test2" />
+    <MESSAGE value="contract" />
+    <MESSAGE value="entity" />
+    <MESSAGE value="Model" />
+    <MESSAGE value="tests" />
+    <MESSAGE value="less scroll" />
+    <MESSAGE value="add showboard and update of controller" />
+    <MESSAGE value="change name" />
+    <MESSAGE value="change name to BoulderDash" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/DBPropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/mapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/MoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1002">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/PermeabilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/SpriteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/tronMAINModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/blocksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/EntityFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/HeroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1546">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/except.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/tronMAINControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/view/tronMAINViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/exia/tron/view/ViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tronMAINTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/exia/tron/controller/tronControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/exia/tron/model/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/exia/tron/entity/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IOrderPerformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IPermeability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/ITronView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/IView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/contract/UserOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/controller/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/controller/tronController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/Alive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/AliveORDead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/grille.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/lightCircle2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/mobile/MobileEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6748">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Permeability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/model/DAOLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron.entity.Entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron.entity.Entity</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.exia.tron.entity.Entity</node>
+            <node x="" y="">fr.exia.tron.contract.IEntity</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.exia.tron.model</node>
+            <node x="" y="">fr.exia.tron.images</node>
+            <node x="" y="">fr.exia.tron.view</node>
+            <node x="" y="">fr.exia.tron.contract</node>
+            <node x="" y="">fr.exia.tron.controller</node>
+            <node x="" y="">fr.exia.tron.entity</node>
+            <node x="" y="">fr.exia.tron.tronMAIN</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="487.0" y="196.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/tronMAIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/entity/EntityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/exia/tron/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron.view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron.view</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">fr.exia.tron.view.ViewFrame</node>
+            <node x="0.0" y="410.0">fr.exia.tron.view.ViewPanel</node>
+            <node x="0.0" y="249.0">fr.exia.tron.view.View</node>
+            <node x="282.0" y="249.0">fr.exia.tron.view.ViewTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-233.5" y="47.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron.model</OriginalElement>
+          <nodes>
+            <node x="0.0" y="204.0">fr.exia.tron.model.DAOLevel</node>
+            <node x="0.0" y="0.0">fr.exia.tron.model.ModelTest</node>
+            <node x="218.0" y="0.0">fr.exia.tron.model.Model</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-289.5" y="-22.0" />
+          <SelectedNodes>
+            <node>fr.exia.tron.model.Model</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron.entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron.entity</OriginalElement>
+          <nodes>
+            <node x="826.0" y="144.0">fr.exia.tron.entity.mobile</node>
+            <node x="1224.6666666666665" y="-71.66666666666669">fr.exia.tron.entity.Map</node>
+            <node x="976.0" y="144.0">fr.exia.tron.entity.motionless</node>
+            <node x="0.0" y="1018.0">fr.exia.tron.entity.EntityFactory</node>
+            <node x="1574.9999999999998" y="-194.99999999999997">fr.exia.tron.entity.MapTest</node>
+            <node x="861.3333333333333" y="314.99999999999994">fr.exia.tron.entity.Sprite</node>
+            <node x="906.25" y="0.0">fr.exia.tron.entity.Entity</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fr.exia.tron.entity.motionless" target="fr.exia.tron.entity.Entity">
+              <point x="0.0" y="-13.5" />
+              <point x="1055.5" y="119.0" />
+              <point x="1006.75" y="119.0" />
+              <point x="33.5" y="47.0" />
+            </edge>
+            <edge source="fr.exia.tron.entity.mobile" target="fr.exia.tron.entity.Entity">
+              <point x="0.0" y="-13.5" />
+              <point x="891.0" y="119.0" />
+              <point x="939.75" y="119.0" />
+              <point x="-33.5" y="47.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="460.99999999999994" y="112.99999999999994" />
+          <SelectedNodes>
+            <node>fr.exia.tron.entity.Sprite</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.exia.tron.entity.mobile">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.exia.tron.entity.mobile</OriginalElement>
+          <nodes>
+            <node x="336.0" y="176.0">fr.exia.tron.entity.mobile.grille</node>
+            <node x="119.0" y="99.0">fr.exia.tron.entity.mobile.Alive</node>
+            <node x="349.5" y="99.0">fr.exia.tron.entity.mobile.AliveORDead</node>
+            <node x="173.75" y="0.0">fr.exia.tron.entity.mobile.MobileEntity</node>
+            <node x="0.0" y="176.0">fr.exia.tron.entity.mobile.lightCircle2</node>
+            <node x="168.0" y="176.0">fr.exia.tron.entity.mobile.lightCircle1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fr.exia.tron.entity.mobile.Alive" target="fr.exia.tron.entity.mobile.MobileEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="158.0" y="74.0" />
+              <point x="212.75" y="74.0" />
+              <point x="-39.0" y="24.5" />
+            </edge>
+            <edge source="fr.exia.tron.entity.mobile.lightCircle2" target="fr.exia.tron.entity.mobile.Alive">
+              <point x="0.0" y="-36.0" />
+              <point x="74.0" y="151.0" />
+              <point x="138.5" y="151.0" />
+              <point x="-19.5" y="13.5" />
+            </edge>
+            <edge source="fr.exia.tron.entity.mobile.grille" target="fr.exia.tron.entity.mobile.AliveORDead">
+              <point x="0.0" y="-36.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="fr.exia.tron.entity.mobile.AliveORDead" target="fr.exia.tron.entity.mobile.MobileEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="410.0" y="74.0" />
+              <point x="290.75" y="74.0" />
+              <point x="39.0" y="24.5" />
+            </edge>
+            <edge source="fr.exia.tron.entity.mobile.lightCircle1" target="fr.exia.tron.entity.mobile.Alive">
+              <point x="0.0" y="-36.0" />
+              <point x="242.0" y="151.0" />
+              <point x="177.5" y="151.0" />
+              <point x="19.5" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="199.5" y="90.5" />
+          <SelectedNodes>
+            <node>fr.exia.tron.entity.mobile.MobileEntity</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java-Projet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
