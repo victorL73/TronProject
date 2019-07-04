@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_jar</output-path>
+    <root id="archive" name="Java.jar">
+      <element id="module-output" name="Java" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="library" level="module" name="Maven: fr.exia:showboard:1.0" module-name="Java" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
